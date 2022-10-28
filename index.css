@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    position: relative;
+}
+
+.home {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 25px;
+    top: 28px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+
+
+}
+
+.guest {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 400px;
+    top: 28px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+
+
+}
+
+.time-background {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: #080001;
+    border-radius: 5px;
+    top: 135px;
+}
+
+#time {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 10px;
+    top: -10px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#stop-time {
+    position: absolute;
+    width: 40px;
+    height: 17px;
+    left: 245px;
+    top: 241px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1B244A;
+    
+}
+
+.stoppingtxt {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 1px;
+    top: -8px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+#start-time {
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 192px;
+    top: 241px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1B244A;;
+}
+
+#reset-time {
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    left: 342px;
+    top: 241px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1B244A;
+}
+
+#resume-time {
+    position: absolute;
+    width: 58px;
+    height: 17px;
+    left: 285px;
+    top: 241px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #1B244A;
+
+}
+
+.resumetxt {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 1px;
+    top: -8px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+.resetingtxt {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 1px;
+    top: -8px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+.startingtxt {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 1px;
+    top: -8px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+.background1 {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 22px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+.background2 {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 395px;
+    top: 125px;
+
+    background: #080001;
+    border-radius: 5px;
+}
+
+#home-el {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 20px;
+    top: -35px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 0px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#guest-el {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 25px;
+    top: -35px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 0px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#pluspoints {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 32px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pluspoints2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pluspoints3 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 132px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plusone {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 3px;
+    top: 1px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+.plustwo {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 3px;
+    top: 1px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+.plusthree {
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 3px;
+    top: 1px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0px;
+    text-align: center;
+    color: #9AABD8;
+}
+
+#gpluspoints {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 407px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#gpluspoints2 {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 457px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#gpluspoints3 {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 507px;
+top: 271px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.gplusone {
+    position: absolute;
+width: 30px;
+height: 25.77px;
+left: 3px;
+top: 1px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 0px;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+}
+
+.gplustwo {
+    position: absolute;
+width: 30px;
+height: 25.77px;
+left: 3px;
+top: 1px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 0px;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+}
+
+.gplusthree {
+    position: absolute;
+width: 30px;
+height: 25.77px;
+left: 3px;
+top: 1px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 0px;
+/* or 155% */
+
+text-align: center;
+
+color: #9AABD8;
+}
+
